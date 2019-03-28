@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  var answer_user = prompt("Which animal do you want to learn about? Snake, Turtle or Eagle ?")
+  alert("So, you like " + answer_user.toUpperCase() + ", enjoy the following information about it !!")
   $(".clickable").click(function(){ 
     $("#text-showing").toggle();
     $("#text-hidden").toggle();
@@ -13,5 +15,6 @@ $(document).ready(function(){
     $("#text-showing2").toggle();
     $("#text-hidden2").toggle();
   });
+  
   
 });
