@@ -1,0 +1,33 @@
+#text-showing {
+  display: none;
+}
+
+#text-showing1 {
+  display: none;
+}
+
+#text-showing2 {
+  display: none;
+}
+
+#title {
+  text-align: center;
+  background-image: url("../img/background1.jpg");
+  color: white;
+  text-shadow: 2px 2px 3px black, 0px 0px 1px black, 0px 0px 0px black;
+}
+
+[class^="clickable"] {
+  cursor: pointer;
+  color: green;
+}
+
+[class^="clickable:hover"] {
+  cursor: pointer;
+  color: green;
+}
+
+body {
+  background-color: lightgreen;
+  
+}
